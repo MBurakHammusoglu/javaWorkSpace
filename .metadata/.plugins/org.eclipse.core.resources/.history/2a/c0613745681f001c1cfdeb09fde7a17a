@@ -1,0 +1,8 @@
+package atmApp;
+
+public class Hesap {
+	
+	public void paraYatir() {
+		
+	}
+}

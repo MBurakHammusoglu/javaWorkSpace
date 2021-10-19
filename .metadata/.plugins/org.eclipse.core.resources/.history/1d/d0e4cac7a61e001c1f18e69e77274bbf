@@ -1,0 +1,44 @@
+package atmApp;
+
+public class Hesap {
+	
+	private String password;
+	private String kullaniciAdi;
+	private int money;
+	
+	
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public int getMoney() {
+		return money;
+	}
+	public void setMoney(int money) {
+		this.money = money;
+	}
+	public String getKullaniciAdi() {
+		return kullaniciAdi;
+	}
+	public void setKullaniciAdi(String kullaniciAdi) {
+		this.kullaniciAdi = kullaniciAdi;
+	}
+	
+	
+	
+	public int paraCekme(int cekilenMiktar) {
+		
+		money=money-cekilenMiktar;	
+		return money;
+	}
+	
+	public int paraYatirma(int yatirilanMiktar) {
+		money=money+yatirilanMiktar;
+		return money;
+	}
+	
+	
+
+}

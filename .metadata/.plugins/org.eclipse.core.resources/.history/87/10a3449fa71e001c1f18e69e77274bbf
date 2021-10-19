@@ -1,0 +1,11 @@
+package atmApp;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Login musteri= new Login("Burak","Hammusoglu","1807","18/07/1997",10000); 
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package atmApp;
+
+import java.util.Scanner;
+
+public class Hesap{
+	
+	Scanner scn = new Scanner(System.in);
+	public void paraYatir() {
+		System.out.println("Para yatirildi");
+	}
+	public void paraCek() {
+		System.out.println("Para Çekildi");
+	}
+	public void harcOde() {
+		System.out.println("Harc ödendi");
+	}
+	public void paraGonder() {
+		System.out.println("Para Gönderildi");
+		
+	}
+	
+	
+	
+	
+}

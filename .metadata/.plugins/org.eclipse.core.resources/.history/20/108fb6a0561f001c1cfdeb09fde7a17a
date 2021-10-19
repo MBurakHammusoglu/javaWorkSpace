@@ -1,0 +1,17 @@
+package atmApp;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Login musteri= new Login("Burak","Hammusoglu","1807",10000);
+		
+		System.out.println("Ýsim:" +musteri.getAd() +  
+				"\nSoyisim:"+ musteri.getSoyad()+
+				"\nSifre:"+musteri.getSifre()+
+				"\nHesap Bakiyeniz:"+musteri.getBakiye());
+		
+
+	}
+
+}

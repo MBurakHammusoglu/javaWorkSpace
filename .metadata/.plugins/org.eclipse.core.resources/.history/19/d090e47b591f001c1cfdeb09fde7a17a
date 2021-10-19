@@ -1,0 +1,10 @@
+package atmApp;
+
+public class Atm {
+	public void Ýslemler() {
+		System.out.println("Atm islemlere girildi");
+		
+		// return deger;
+	}
+
+}

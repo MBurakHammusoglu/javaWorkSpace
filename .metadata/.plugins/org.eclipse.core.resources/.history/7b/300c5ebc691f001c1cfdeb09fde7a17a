@@ -1,0 +1,24 @@
+package atmApp;
+
+import java.util.Scanner;
+
+public class Hesap{
+	
+	Scanner scn = new Scanner(System.in);
+	public void paraYatir() {
+		
+	}
+	public void paraCek() {
+		
+	}
+	public void harcOde() {
+		
+	}
+	public void paraGonder() {
+		
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,19 @@
+package atmApp;
+
+import java.util.Scanner;
+
+public class Hesap{
+	
+	Scanner scn = new Scanner(System.in);
+	public int paraYatir(Login login) {
+		System.out.println("Yatirmak istediginiz miktarý girin");
+		int yatirilanMiktar=scn.nextInt();
+		login.bakiye+=yatirilanMiktar;
+		return login.bakiye; 
+		
+	}
+	
+	
+	
+	
+}

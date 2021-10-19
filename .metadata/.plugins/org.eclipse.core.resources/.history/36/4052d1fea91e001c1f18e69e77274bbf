@@ -1,0 +1,52 @@
+package atmApp;
+
+public class Login {
+	
+	private String ad;
+	private String soyad;
+	private String sifre;
+	private String dogumTarih;
+	private int bakiye;
+	
+	public Login(String ad, String soyad, String sifre, String dogumTarih, int bakiye) {
+		this.ad=ad;
+		this.soyad=soyad;
+		this.sifre=sifre;
+		this.dogumTarih=dogumTarih;
+		this.bakiye=bakiye;
+	}
+	
+	
+	public String getAd() {
+		return ad;
+	}
+	public void setAd(String ad) {
+		this.ad = ad;
+	}
+	public String getSoyad() {
+		return soyad;
+	}
+	public void setSoyad(String soyad) {
+		this.soyad = soyad;
+	}
+	public String getSifre() {
+		return sifre;
+	}
+	public void setSifre(String sifre) {
+		this.sifre = sifre;
+	}
+	public String getDogumTarih() {
+		return dogumTarih;
+	}
+	public void setDogumTarih(String dogumTarih) {
+		this.dogumTarih = dogumTarih;
+	}
+	public int getBakiye() {
+		return bakiye;
+	}
+	public void setBakiye(int bakiye) {
+		this.bakiye = bakiye;
+	}
+	
+
+}

@@ -1,0 +1,34 @@
+package atmApp;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String girilenAd;
+		String girilenSoyad;
+		String girilenSifre;
+		Login musteri= new Login("Burak","Hammusoglu","1807",10000);
+		Hesap hesap = new Hesap(musteri.bakiye);
+		hesap.setYeniBakiye(musteri.bakiye);
+		Scanner scn=new Scanner(System.in);
+		System.out.println("Lütfen adýnýzý girin:");
+		girilenAd=scn.nextLine();
+		System.out.println("Lütfen soyadýnýzý girin:");
+		girilenSoyad=scn.nextLine();
+		System.out.println("Lütfen sifrenizi girin:");
+		girilenSifre=scn.nextLine();
+		musteri.bilgiKontrol(girilenAd, girilenSoyad, girilenSifre);
+		
+		
+		
+		
+		/* System.out.println("Ýsim:" +musteri.getAd() +  
+				"\nSoyisim:"+ musteri.getSoyad()+
+				"\nSifre:"+musteri.getSifre()+
+				"\nHesap Bakiyeniz:"+musteri.getBakiye());
+		*/
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package javaStudy;
+
+public class GelismisHesapOverloading {
+	
+	public static int Topla( int a,int b) {
+		
+		return a+b;
+	}
+	public static int Topla(int a,int b,int c) {
+		
+		return a+b+c;
+	}
+	public static int Carpma(int a,int b) {
+		return a*b;
+	}
+	public static int Carpma(int a,int b,int c) {
+		
+		return a*b*c;
+	}
+	
+	
+
+	public static void main(String[] args) {
+		
+		Topla(2,5);
+		Topla(2,5,6);
+		Carpma(2,5);
+		Carpma(2,5,2);
+	}
+
+}

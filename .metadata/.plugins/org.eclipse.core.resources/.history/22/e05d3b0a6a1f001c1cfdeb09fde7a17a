@@ -1,0 +1,33 @@
+package atmApp;
+
+import java.util.Scanner;
+
+public class Atm {
+	public void İslemler() {
+		
+		int yapilacakİslem;
+		System.out.println("Lütfen yapmak istediğiniz işlemi seçin.");
+		System.out.println("1- Para Yatırmak"
+				+ "\n 2- Para Çekmek"
+				+ "\n 3- Harc Öde"
+				+ "\n 4- Para Gonder"
+				);
+		Scanner scn=new Scanner(System.in);
+		yapilacakİslem=scn.nextInt();
+		Hesap hesapİslemleri = new Hesap();
+		if(yapilacakİslem==1) {
+			hesapİslemleri.paraYatir();
+		}else if(yapilacakİslem==2) {
+			hesapİslemleri.paraCek();
+		}else if(yapilacakİslem==3) {
+			hesapİslemleri.harcOde();
+		}else if(yapilacakİslem==4) {
+			hesapİslemleri.paraGonder();
+		}else {
+			System.exit(0);
+		}
+		
+		
+	}
+
+}

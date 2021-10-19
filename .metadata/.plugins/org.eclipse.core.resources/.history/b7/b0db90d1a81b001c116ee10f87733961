@@ -1,0 +1,12 @@
+package oopJava;
+
+public class Arabalar {
+	
+	private String colour;
+	private String model;
+	private int modelYear;
+	private boolean move;
+	private int maxSpeed;
+	
+
+}
